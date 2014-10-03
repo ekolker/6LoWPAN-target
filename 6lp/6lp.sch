@@ -1,0 +1,358 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:parts
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DGND #PWR?
+U 1 1 542F167A
+P 5400 5150
+F 0 "#PWR?" H 5400 5150 40  0001 C CNN
+F 1 "DGND" H 5400 5080 40  0000 C CNN
+F 2 "" H 5400 5150 60  0000 C CNN
+F 3 "" H 5400 5150 60  0000 C CNN
+	1    5400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 542F168E
+P 6000 5150
+F 0 "#PWR?" H 6000 5150 40  0001 C CNN
+F 1 "AGND" H 6000 5080 50  0000 C CNN
+F 2 "" H 6000 5150 60  0000 C CNN
+F 3 "" H 6000 5150 60  0000 C CNN
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+Text Label 5400 5050 1    60   ~ 0
+DGND
+Text Label 6000 5050 1    60   ~ 0
+AGND
+$Comp
+L C C?
+U 1 1 542F248A
+P 7050 2100
+F 0 "C?" H 7050 2200 40  0000 L CNN
+F 1 "100nF" H 7056 2015 40  0000 L CNN
+F 2 "" H 7088 1950 30  0000 C CNN
+F 3 "" H 7050 2100 60  0000 C CNN
+	1    7050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 542F3368
+P 5400 5150
+F 0 "#PWR?" H 5400 5150 40  0001 C CNN
+F 1 "DGND" H 5400 5080 40  0000 C CNN
+F 2 "" H 5400 5150 60  0000 C CNN
+F 3 "" H 5400 5150 60  0000 C CNN
+	1    5400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 542F339F
+P 4500 2450
+F 0 "#PWR?" H 4500 2450 40  0001 C CNN
+F 1 "DGND" H 4500 2380 40  0000 C CNN
+F 2 "" H 4500 2450 60  0000 C CNN
+F 3 "" H 4500 2450 60  0000 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 542F415B
+P 4850 2100
+F 0 "C?" H 4850 2200 40  0000 L CNN
+F 1 "100nF" H 4856 2015 40  0000 L CNN
+F 2 "" H 4888 1950 30  0000 C CNN
+F 3 "" H 4850 2100 60  0000 C CNN
+	1    4850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 542F4184
+P 4150 2100
+F 0 "C?" H 4150 2200 40  0000 L CNN
+F 1 "100nF" H 4156 2015 40  0000 L CNN
+F 2 "" H 4188 1950 30  0000 C CNN
+F 3 "" H 4150 2100 60  0000 C CNN
+	1    4150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 542F41A6
+P 4500 2100
+F 0 "C?" H 4500 2200 40  0000 L CNN
+F 1 "100nF" H 4506 2015 40  0000 L CNN
+F 2 "" H 4538 1950 30  0000 C CNN
+F 3 "" H 4500 2100 60  0000 C CNN
+	1    4500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 542F458B
+P 6350 2100
+F 0 "C?" H 6350 2200 40  0000 L CNN
+F 1 "100nF" H 6356 2015 40  0000 L CNN
+F 2 "" H 6388 1950 30  0000 C CNN
+F 3 "" H 6350 2100 60  0000 C CNN
+	1    6350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 542F45E7
+P 6700 2100
+F 0 "C?" H 6700 2200 40  0000 L CNN
+F 1 "100nF" H 6706 2015 40  0000 L CNN
+F 2 "" H 6738 1950 30  0000 C CNN
+F 3 "" H 6700 2100 60  0000 C CNN
+	1    6700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 542F4634
+P 6350 2450
+F 0 "#PWR?" H 6350 2450 40  0001 C CNN
+F 1 "AGND" H 6350 2380 50  0000 C CNN
+F 2 "" H 6350 2450 60  0000 C CNN
+F 3 "" H 6350 2450 60  0000 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 542F4C7E
+P 4150 2450
+F 0 "#PWR?" H 4150 2450 40  0001 C CNN
+F 1 "DGND" H 4150 2380 40  0000 C CNN
+F 2 "" H 4150 2450 60  0000 C CNN
+F 3 "" H 4150 2450 60  0000 C CNN
+	1    4150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 542F4CA2
+P 7050 2450
+F 0 "#PWR?" H 7050 2450 40  0001 C CNN
+F 1 "DGND" H 7050 2380 40  0000 C CNN
+F 2 "" H 7050 2450 60  0000 C CNN
+F 3 "" H 7050 2450 60  0000 C CNN
+	1    7050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 542F502A
+P 4150 1250
+F 0 "#PWR?" H 4150 1210 30  0001 C CNN
+F 1 "+3.3V" H 4150 1360 30  0000 C CNN
+F 2 "" H 4150 1250 60  0000 C CNN
+F 3 "" H 4150 1250 60  0000 C CNN
+	1    4150 1250
+	1    0    0    -1  
+$EndComp
+Text Label 6100 2450 1    60   ~ 0
+AVDD
+$Comp
+L DGND #PWR?
+U 1 1 542F66F4
+P 6700 2450
+F 0 "#PWR?" H 6700 2450 40  0001 C CNN
+F 1 "DGND" H 6700 2380 40  0000 C CNN
+F 2 "" H 6700 2450 60  0000 C CNN
+F 3 "" H 6700 2450 60  0000 C CNN
+	1    6700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4650 6000 4750
+Wire Wire Line
+	6000 4750 6000 5150
+Wire Wire Line
+	5700 4750 5800 4750
+Wire Wire Line
+	5800 4750 5900 4750
+Wire Wire Line
+	5900 4750 6000 4750
+Wire Wire Line
+	5700 4750 5700 4650
+Connection ~ 6000 4750
+Wire Wire Line
+	5800 4650 5800 4750
+Connection ~ 5800 4750
+Wire Wire Line
+	5900 4650 5900 4750
+Connection ~ 5900 4750
+Wire Wire Line
+	5300 4650 5300 4750
+Wire Wire Line
+	5300 4750 5400 4750
+Wire Wire Line
+	5400 4650 5400 4750
+Wire Wire Line
+	5400 4750 5400 5150
+Connection ~ 5400 4750
+Wire Wire Line
+	6350 2300 6350 2450
+Wire Wire Line
+	6700 2300 6700 2450
+Wire Wire Line
+	6100 2650 6100 1850
+Wire Wire Line
+	6100 1850 6350 1850
+Wire Wire Line
+	6350 1850 6350 1900
+Wire Wire Line
+	7050 2450 7050 2300
+Wire Wire Line
+	4850 2300 4850 2450
+Wire Wire Line
+	4150 2300 4150 2450
+Wire Wire Line
+	4500 2300 4500 2450
+Wire Wire Line
+	6700 1800 6700 1900
+Wire Wire Line
+	6700 1800 5900 1800
+Wire Wire Line
+	5900 1800 5900 2650
+Wire Wire Line
+	7050 1900 7050 1750
+Wire Wire Line
+	7050 1750 5700 1750
+Wire Wire Line
+	5700 1750 5700 2650
+Text Label 5900 2450 1    60   ~ 0
+DVDD
+Text Label 5700 2450 1    60   ~ 0
+VDDCORE
+Wire Wire Line
+	4150 1250 4150 1500
+Wire Wire Line
+	4150 1500 4150 1800
+Wire Wire Line
+	4150 1800 4150 1900
+Text Notes 6050 1700 0    60   ~ 0
+GENERATED
+Text Notes 4950 1700 0    60   ~ 0
+SUPPLIED
+$Comp
+L AGND #PWR?
+U 1 1 542F77AA
+P 4850 2450
+F 0 "#PWR?" H 4850 2450 40  0001 C CNN
+F 1 "AGND" H 4850 2380 50  0000 C CNN
+F 2 "" H 4850 2450 60  0000 C CNN
+F 3 "" H 4850 2450 60  0000 C CNN
+	1    4850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 542F7A82
+P 4500 1500
+F 0 "L?" V 4450 1500 40  0000 C CNN
+F 1 "4.7uH" V 4600 1500 40  0000 C CNN
+F 2 "" H 4500 1500 60  0000 C CNN
+F 3 "" H 4500 1500 60  0000 C CNN
+	1    4500 1500
+	0    1    1    0   
+$EndComp
+Text Label 5400 2450 1    60   ~ 0
+3.3V
+$Comp
+L SAMR21E U?
+U 1 1 542F8C1B
+P 5600 3650
+F 0 "U?" H 4900 4500 60  0000 C CNN
+F 1 "SAMR21E" H 5600 3650 60  0000 C CNN
+F 2 "" H 4700 3700 60  0000 C CNN
+F 3 "" H 4700 3700 60  0000 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1500 4850 1850
+Wire Wire Line
+	4850 1850 4850 1900
+Wire Wire Line
+	4850 1850 5200 1850
+Wire Wire Line
+	5200 1850 5200 2650
+Wire Wire Line
+	5400 1800 5400 2550
+Wire Wire Line
+	5400 2550 5400 2650
+Wire Wire Line
+	5400 2550 5500 2550
+Wire Wire Line
+	5500 2550 5500 2650
+Wire Wire Line
+	4500 1900 4500 1800
+Wire Wire Line
+	4150 1800 4500 1800
+Wire Wire Line
+	4500 1800 5400 1800
+Connection ~ 4500 1800
+Connection ~ 5400 2550
+Wire Wire Line
+	4800 1500 4850 1500
+Connection ~ 4850 1850
+Wire Wire Line
+	4200 1500 4150 1500
+Connection ~ 4150 1800
+Connection ~ 4150 1500
+Text Label 5200 2450 1    60   ~ 0
+VDDANA
+$EndSCHEMATC
