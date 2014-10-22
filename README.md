@@ -1,7 +1,7 @@
-6LoWPAN-module
+6LoWPAN-target
 ==============
 
-A [6LoWPAN](http://en.wikipedia.org/wiki/6LoWPAN) module for Tessel.
+A [6LoWPAN](http://en.wikipedia.org/wiki/6LoWPAN) target with a Tessel module port.
 
 Designs in KiCad.
 
