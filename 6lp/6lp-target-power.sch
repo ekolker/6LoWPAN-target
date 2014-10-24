@@ -209,7 +209,7 @@ Text Label 5100 2450 0    60   ~ 0
 STAT
 Text Label 5800 2450 0    60   ~ 0
 STAT_LED
-Text Label 4150 4350 2    60   ~ 0
+Text Label 3800 4100 2    60   ~ 0
 BATT
 Text GLabel 6000 1700 0    60   Input ~ 0
 BATT
@@ -319,7 +319,9 @@ F 3 "" H 4250 4700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 5400 5300 5650
+	5300 5400 5300 5500
+Wire Wire Line
+	5300 5500 5300 5650
 Wire Wire Line
 	6250 5850 6250 5800
 Connection ~ 7350 5300
@@ -327,9 +329,13 @@ Connection ~ 7050 5300
 Wire Wire Line
 	7050 5150 7050 5300
 Wire Wire Line
-	7350 5150 7350 5450
+	7350 5150 7350 5300
 Wire Wire Line
-	6750 5300 7350 5300
+	7350 5300 7350 5450
+Wire Wire Line
+	6750 5300 7050 5300
+Wire Wire Line
+	7050 5300 7350 5300
 Connection ~ 7050 4650
 Wire Wire Line
 	7050 4650 7050 4750
@@ -338,7 +344,17 @@ Connection ~ 6250 4650
 Wire Wire Line
 	6250 4650 6250 4700
 Wire Wire Line
-	6100 4650 7950 4650
+	6100 4650 6250 4650
+Wire Wire Line
+	6250 4650 6750 4650
+Wire Wire Line
+	6750 4650 7050 4650
+Wire Wire Line
+	7050 4650 7350 4650
+Wire Wire Line
+	7350 4650 7750 4650
+Wire Wire Line
+	7750 4650 7950 4650
 Connection ~ 6250 5250
 Wire Wire Line
 	6150 5050 6100 5050
@@ -347,7 +363,9 @@ Wire Wire Line
 Wire Wire Line
 	6250 5250 6150 5250
 Wire Wire Line
-	6250 5200 6250 5300
+	6250 5200 6250 5250
+Wire Wire Line
+	6250 5250 6250 5300
 Wire Wire Line
 	3750 3050 3750 3150
 Wire Wire Line
@@ -359,9 +377,15 @@ Connection ~ 4550 2850
 Wire Wire Line
 	4450 2850 4450 2750
 Wire Wire Line
-	4350 2850 4550 2850
+	4350 2850 4450 2850
 Wire Wire Line
-	4550 2750 4550 3150
+	4450 2850 4550 2850
+Wire Wire Line
+	4550 2750 4550 2850
+Wire Wire Line
+	4550 2850 4550 3000
+Wire Wire Line
+	4550 3000 4550 3150
 Wire Wire Line
 	6250 3150 6250 3050
 Connection ~ 4450 1750
@@ -372,7 +396,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 1750 3750 1750
 Wire Wire Line
-	4450 1350 4450 1850
+	4450 1350 4450 1500
+Wire Wire Line
+	4450 1500 4450 1750
+Wire Wire Line
+	4450 1750 4450 1850
 Wire Wire Line
 	5350 2450 5050 2450
 Wire Wire Line
@@ -384,11 +412,19 @@ Wire Wire Line
 Wire Wire Line
 	7150 2150 7150 2050
 Wire Wire Line
-	5050 2150 7800 2150
+	5050 2150 6150 2150
+Wire Wire Line
+	6150 2150 6850 2150
+Wire Wire Line
+	6850 2150 7150 2150
+Wire Wire Line
+	7150 2150 7800 2150
 Wire Wire Line
 	6850 2850 6850 2950
 Wire Wire Line
-	6850 2950 7900 2950
+	6850 2950 7250 2950
+Wire Wire Line
+	7250 2950 7900 2950
 Connection ~ 7250 2950
 Wire Wire Line
 	6850 2250 6850 2150
@@ -404,7 +440,9 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5600 5400
 Wire Wire Line
-	5300 5500 5600 5500
+	5300 5500 5500 5500
+Wire Wire Line
+	5500 5500 5600 5500
 Connection ~ 5300 5500
 Wire Wire Line
 	5500 5400 5500 5500
@@ -427,7 +465,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 4650 4600 4650
 Wire Wire Line
-	4500 4350 4500 4850
+	4500 4100 4500 4550
+Wire Wire Line
+	4500 4550 4500 4650
+Wire Wire Line
+	4500 4650 4500 4850
 Connection ~ 4500 4550
 Wire Wire Line
 	6150 1700 6000 1700
@@ -441,14 +483,22 @@ Wire Wire Line
 	4500 4850 4600 4850
 Connection ~ 4500 4650
 Wire Wire Line
-	3550 5050 4600 5050
+	3550 5050 4150 5050
 Wire Wire Line
-	3850 4350 4500 4350
+	4150 5050 4250 5050
+Wire Wire Line
+	4250 5050 4600 5050
+Wire Wire Line
+	3500 4100 3950 4100
+Wire Wire Line
+	3950 4100 4250 4100
+Wire Wire Line
+	4250 4100 4500 4100
 Wire Wire Line
 	4250 4950 4250 5050
 Wire Wire Line
-	4250 4450 4250 4350
-Connection ~ 4250 4350
+	4250 4450 4250 4100
+Connection ~ 4250 4100
 Connection ~ 4250 5050
 Text GLabel 3550 5050 0    60   Input ~ 0
 PS/SYNC
@@ -477,7 +527,9 @@ Wire Wire Line
 	7800 2150 7800 2050
 Connection ~ 7150 2150
 Wire Wire Line
-	7900 2050 7900 3150
+	7900 2050 7900 2950
+Wire Wire Line
+	7900 2950 7900 3150
 Connection ~ 7900 2950
 $Comp
 L R R202
@@ -508,4 +560,31 @@ Wire Wire Line
 	4150 5650 4150 5750
 Text Label 4050 5050 2    60   ~ 0
 PS/SYNC
+$Comp
+L C C?
+U 1 1 545652D7
+P 3950 4400
+F 0 "C?" H 3950 4500 40  0000 L CNN
+F 1 "10uF" H 3956 4315 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3988 4250 30  0001 C CNN
+F 3 "" H 3950 4400 60  0000 C CNN
+	1    3950 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4200 3950 4100
+Connection ~ 3950 4100
+$Comp
+L DGND #PWR?
+U 1 1 54565793
+P 3950 4700
+F 0 "#PWR?" H 3950 4700 40  0001 C CNN
+F 1 "DGND" H 3950 4630 40  0000 C CNN
+F 2 "" H 3950 4700 60  0000 C CNN
+F 3 "" H 3950 4700 60  0000 C CNN
+	1    3950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4600 3950 4700
 $EndSCHEMATC
