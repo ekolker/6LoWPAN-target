@@ -400,10 +400,6 @@ Text Label 5450 4550 0    60   ~ 0
 SWCLK
 Text Label 5450 4650 0    60   ~ 0
 SWDIO
-Text Label 5450 4250 0    60   ~ 0
-PA27
-Text Label 5450 4350 0    60   ~ 0
-PA28
 $Comp
 L BALUN-6 T401
 U 1 1 54531450
@@ -460,30 +456,26 @@ Text Label 5450 4050 0    60   ~ 0
 USB_D-
 Text Label 5450 4150 0    60   ~ 0
 USB_D+
-Text Label 3150 3750 2    60   ~ 0
-SCLK
 Text Label 3150 3850 2    60   ~ 0
+SCLK
+Text Label 3150 4050 2    60   ~ 0
 MISO
-Text Label 3150 3950 2    60   ~ 0
+Text Label 3150 3750 2    60   ~ 0
 MOSI
 Text Label 3150 4250 2    60   ~ 0
 XTAL1
 Text Label 3150 4750 2    60   ~ 0
 XTAL2
-Text Label 3150 4050 2    60   ~ 0
+Text Label 3150 3950 2    60   ~ 0
 G3
-Text Label 5450 3550 0    60   ~ 0
+Text Label 5450 4250 0    60   ~ 0
 G1/TX
-Text Label 5450 3650 0    60   ~ 0
+Text Label 5450 4350 0    60   ~ 0
 G2/RX
 Text Label 5450 3750 0    60   ~ 0
 SDA
 Text Label 5450 3850 0    60   ~ 0
 SCL
-Text Label 3150 3550 2    60   ~ 0
-PA14
-Text Label 3150 3650 2    60   ~ 0
-PA15
 $Comp
 L SW_PUSH SW401
 U 1 1 5453147C
@@ -872,10 +864,6 @@ Text HLabel 5850 4050 2    60   Input ~ 0
 USB_D-
 Text HLabel 5850 4150 2    60   Input ~ 0
 USB_D+
-Text HLabel 5850 4250 2    60   Input ~ 0
-PA27
-Text HLabel 5850 4350 2    60   Input ~ 0
-PA28
 Text HLabel 5850 4550 2    60   Input ~ 0
 SWCLK
 Text HLabel 5850 4650 2    60   Input ~ 0
@@ -896,8 +884,42 @@ Text Label 9300 2750 0    60   ~ 0
 MOSI
 Text Label 9300 2550 0    60   ~ 0
 SCLK
-Text HLabel 2800 3550 0    60   Input ~ 0
-PA14
-Text HLabel 2800 3650 0    60   Input ~ 0
-PA15
+Text HLabel 9450 3400 2    60   Input ~ 0
+GPIO
+Wire Bus Line
+	9450 3400 9100 3400
+Entry Wire Line
+	9100 3600 9200 3700
+Entry Wire Line
+	9100 3700 9200 3800
+Entry Wire Line
+	9100 3800 9200 3900
+Entry Wire Line
+	9100 3900 9200 4000
+Wire Wire Line
+	9200 3700 9650 3700
+Wire Wire Line
+	9200 3800 9650 3800
+Wire Wire Line
+	9200 3900 9650 3900
+Wire Wire Line
+	9200 4000 9650 4000
+Wire Bus Line
+	9100 3400 9100 3950
+Text Label 9300 3700 0    60   ~ 0
+GPIO0
+Text Label 9300 3800 0    60   ~ 0
+GPIO1
+Text Label 9300 3900 0    60   ~ 0
+GPIO2
+Text Label 9300 4000 0    60   ~ 0
+GPIO3
+Text Label 5450 3550 0    60   ~ 0
+GPIO0
+Text Label 5450 3650 0    60   ~ 0
+GPIO1
+Text Label 3150 3550 2    60   ~ 0
+GPIO2
+Text Label 3150 3650 2    60   ~ 0
+GPIO3
 $EndSCHEMATC

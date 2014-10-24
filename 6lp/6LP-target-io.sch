@@ -84,10 +84,6 @@ Text Label 8850 3150 2    60   ~ 0
 MISO
 Text Label 8850 3250 2    60   ~ 0
 MOSI
-Text Label 9500 5050 0    60   ~ 0
-PA27
-Text Label 9500 5150 0    60   ~ 0
-PA28
 $Comp
 L DGND #PWR013
 U 1 1 54524C0E
@@ -123,7 +119,7 @@ F 3 "" H 9350 4850 60  0000 C CNN
 	1    9350 4850
 	1    0    0    -1  
 $EndComp
-Text Notes 8750 4550 0    60   ~ 0
+Text Notes 8750 4400 0    60   ~ 0
 IO HEADER
 Text Label 8850 3350 2    60   ~ 0
 G1/TX
@@ -135,10 +131,6 @@ Text Label 8850 2950 2    60   ~ 0
 SDA
 Text Label 8850 2850 2    60   ~ 0
 SCL
-Text Label 8650 5050 2    60   ~ 0
-PA14
-Text Label 8650 5150 2    60   ~ 0
-PA15
 $Comp
 L CONN_02X04 J304
 U 1 1 54524C29
@@ -229,7 +221,7 @@ Text GLabel 8500 5550 0    60   Input ~ 0
 AGND
 Text GLabel 9200 5550 0    60   Input ~ 0
 DGND
-Text GLabel 8150 4950 0    60   Input ~ 0
+Text GLabel 8250 4950 0    60   Input ~ 0
 VDDANA
 Text GLabel 1700 5700 0    60   Input ~ 0
 SWCLK
@@ -363,14 +355,6 @@ Text HLabel 5500 2750 2    60   Input ~ 0
 USB_D-
 Text HLabel 5500 2900 2    60   Input ~ 0
 USB_D+
-Text HLabel 9850 5050 2    60   Input ~ 0
-PA27
-Text HLabel 9850 5150 2    60   Input ~ 0
-PA28
-Text HLabel 8150 5150 0    60   Input ~ 0
-PA15
-Text HLabel 8150 5050 0    60   Input ~ 0
-PA14
 Text HLabel 1700 6100 0    60   Input ~ 0
 SWCLK
 Text HLabel 1700 6200 0    60   Input ~ 0
@@ -418,7 +402,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 4850 9350 4950
 Wire Wire Line
-	8750 4950 8150 4950
+	8750 4950 8250 4950
 Wire Wire Line
 	8650 5250 8650 5700
 Wire Wire Line
@@ -428,9 +412,9 @@ Wire Wire Line
 Wire Wire Line
 	9250 5050 9850 5050
 Wire Wire Line
-	8150 5150 8750 5150
+	7700 5150 8750 5150
 Wire Wire Line
-	8150 5050 8750 5050
+	7700 5050 8750 5050
 Wire Wire Line
 	8600 2200 8600 2750
 Wire Wire Line
@@ -548,4 +532,28 @@ Wire Bus Line
 	8350 2600 8350 3500
 Wire Bus Line
 	8350 2600 8050 2600
+Text HLabel 7350 4650 0    60   Input ~ 0
+GPIO
+Wire Bus Line
+	7350 4650 9950 4650
+Wire Bus Line
+	9950 4650 9950 5300
+Wire Bus Line
+	7600 4650 7600 5300
+Entry Wire Line
+	7600 5150 7700 5050
+Entry Wire Line
+	7600 5250 7700 5150
+Entry Wire Line
+	9850 5150 9950 5250
+Entry Wire Line
+	9850 5050 9950 5150
+Text Label 8650 5050 2    60   ~ 0
+GPIO0
+Text Label 8650 5150 2    60   ~ 0
+GPIO1
+Text Label 9350 5050 0    60   ~ 0
+GPIO2
+Text Label 9350 5150 0    60   ~ 0
+GPIO3
 $EndSCHEMATC
