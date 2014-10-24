@@ -1,227 +1,346 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Tue 14 Oct 2014 12:43:18 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 23 Oct 2014 06:20:16 PM PDT
 
 BeginCmp
-TimeStamp = /543E9CA8;
+TimeStamp = /5452FCCD/54531463;
 Reference = AE1;
 ValeurCmp = ANTENNA;
 IdModule  = parts:ANTENNA-SMT-2.45GHz;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FB6C5;
+TimeStamp = /544FA5F3/5450043E;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/545652D7;
 Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /542FADD1;
-Reference = C2;
 ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F4184;
-Reference = C3;
+TimeStamp = /544FA5F3/544FF07F;
+Reference = C2;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FCCC2;
+TimeStamp = /544FA5F3/544FF078;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/544FF071;
 Reference = C4;
-ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 22uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FCC21;
+TimeStamp = /5452FCCD/545313FC;
 Reference = C5;
-ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F41A6;
+TimeStamp = /5452FCCD/545313A0;
 Reference = C6;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FA99F;
+TimeStamp = /5452FCCD/5453140A;
 Reference = C7;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
+ValeurCmp = 100nF;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F415B;
+TimeStamp = /5452FCCD/545313A7;
 Reference = C8;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F458B;
+TimeStamp = /5452FCCD/545313EE;
 Reference = C9;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F45E7;
+TimeStamp = /5452FCCD/54531399;
 Reference = C10;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F248A;
+TimeStamp = /5452FCCD/545313AE;
 Reference = C11;
 ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /54301E12;
+TimeStamp = /5452FCCD/545313B5;
 Reference = C12;
-ValeurCmp = 22pF;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 100nF;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /54302055;
+TimeStamp = /5452FCCD/54531386;
 Reference = C13;
-ValeurCmp = 1.2pF;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 100nF;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543026C8;
+TimeStamp = /5452FCCD/545323F9;
 Reference = C14;
-ValeurCmp = DNP;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = 8pF;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543E6FCD;
+TimeStamp = /5452FCCD/545323F2;
+Reference = C15;
+ValeurCmp = 8pF;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/5453142B;
+Reference = C16;
+ValeurCmp = 22pF;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54531432;
+Reference = C17;
+ValeurCmp = 1.2pF;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54531440;
+Reference = C18;
+ValeurCmp = DNP;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/5450041B;
 Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54533862;
+Reference = D2;
 ValeurCmp = TVS-2;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /542F9E10;
+TimeStamp = /5452FCCD/545313E7;
 Reference = FB1;
 ValeurCmp = 10uH;
-IdModule  = Capacitors_SMD:C_0603;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FC54C;
+TimeStamp = /544FA5F3/54500437;
 Reference = J1;
-ValeurCmp = MODULE_HEADER;
-IdModule  = parts:MODULE_HEADER_MODULE;
+ValeurCmp = 0.1" TH;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54321264;
+TimeStamp = /544FA5F3/54526E87;
 Reference = J2;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+ValeurCmp = BATTERY CONNECTOR;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5431C706;
+TimeStamp = /545248EF/54533835;
 Reference = J3;
-ValeurCmp = CONN_01X04;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
-EndCmp
-
-BeginCmp
-TimeStamp = /543227D9;
-Reference = J4;
-ValeurCmp = CONN_02X06;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
-EndCmp
-
-BeginCmp
-TimeStamp = /543C989C;
-Reference = J5;
-ValeurCmp = CONN_02X05;
-IdModule  = parts:CONN_02x05_0.05in;
-EndCmp
-
-BeginCmp
-TimeStamp = /543D7F08;
-Reference = J6;
 ValeurCmp = USB-MICRO;
 IdModule  = parts:MICRO-USB-10104111;
 EndCmp
 
 BeginCmp
-TimeStamp = /543025F7;
+TimeStamp = /545248EF/54525055;
+Reference = J4;
+ValeurCmp = CONN_02X05;
+IdModule  = parts:CONN_02x05_0.05in;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54525046;
+Reference = J5;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54524C29;
+Reference = J6;
+ValeurCmp = CONN_02X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54524BF6;
+Reference = J7;
+ValeurCmp = MODULE_HEADER;
+IdModule  = parts:MODULE_HEADER_TESSEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/5453959E;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SMD-0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/54501962;
 Reference = L1;
-ValeurCmp = 1.8nH;
+ValeurCmp = 1.5uH;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FBBC4;
-Reference = R1;
-ValeurCmp = 330R;
-IdModule  = Resistors_SMD:R_0402;
+TimeStamp = /5452FCCD/54531439;
+Reference = L2;
+ValeurCmp = 1.8nH;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FBD4D;
+TimeStamp = /544FA5F3/54500429;
+Reference = R1;
+ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/54528281;
 Reference = R2;
 ValeurCmp = 10kR;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543DA04A;
+TimeStamp = /544FA5F3/5451B3AC;
 Reference = R3;
-ValeurCmp = 10kR;
-IdModule  = Resistors_SMD:R_0402;
+ValeurCmp = DNP;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543D9CDF;
+TimeStamp = /544FA5F3/54500422;
 Reference = R4;
-ValeurCmp = 10kR;
-IdModule  = Resistors_SMD:R_0402;
+ValeurCmp = 1kR;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543F1CC9;
+TimeStamp = /544FA5F3/544FF063;
 Reference = R5;
-ValeurCmp = 10kR;
-IdModule  = Resistors_SMD:R_0402;
+ValeurCmp = 0;
+IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /543E821F;
+TimeStamp = /544FA5F3/544FF06A;
+Reference = R6;
+ValeurCmp = DNP;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54533869;
+Reference = R7;
+ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54533849;
+Reference = R8;
+ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/54533842;
+Reference = R9;
+ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/5453141E;
+Reference = R10;
+ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/5453147C;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54531450;
 Reference = T1;
 ValeurCmp = 2450BM15A0015;
 IdModule  = parts:EIA-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FB94A;
+TimeStamp = /544FA5F3/54500414;
 Reference = U1;
+ValeurCmp = AAT3681AIJS-4.2;
+IdModule  = parts:SC70JW-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/544FF05C;
+Reference = U2;
+ValeurCmp = TPS6303X;
+IdModule  = parts:DFN-10-0.5mm-2.5x2.5-1-EP;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54531411;
+Reference = U3;
 ValeurCmp = SAMR21E;
 IdModule  = SMD_Packages:QFN-32-1EP;
 EndCmp
 
 BeginCmp
-TimeStamp = /542FCE9D;
+TimeStamp = /5452FCCD/54532408;
 Reference = X1;
-ValeurCmp = CRYSTAL;
-IdModule  = ;
+ValeurCmp = CRYSTAL-4;
+IdModule  = parts:TSX-3225;
 EndCmp
 
 EndListe
