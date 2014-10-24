@@ -1,5 +1,67 @@
 EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
 LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -285,7 +347,7 @@ F 1 "TVS-2" H 4950 3200 60  0000 R CNN
 F 2 "SMD_Packages:SOT-23" H 4600 3650 60  0001 C CNN
 F 3 "" H 4600 3650 60  0000 C CNN
 	1    4600 3600
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R7
@@ -330,43 +392,65 @@ SWCLK
 Text HLabel 1950 6200 0    60   Input ~ 0
 SWDIO
 Entry Wire Line
-	8350 2750 8450 2850
+	7000 2750 7100 2850
 Entry Wire Line
-	8350 2850 8450 2950
+	7000 2850 7100 2950
 Entry Wire Line
-	8350 2950 8450 3050
+	7000 2950 7100 3050
 Entry Wire Line
-	8350 3050 8450 3150
+	7000 3050 7100 3150
 Entry Wire Line
-	8350 3150 8450 3250
+	7000 3150 7100 3250
 Entry Wire Line
-	8350 3250 8450 3350
+	7000 3250 7100 3350
 Entry Wire Line
-	8350 3350 8450 3450
+	7000 3350 7100 3450
 Entry Wire Line
-	8350 3450 8450 3550
-Text HLabel 8050 2600 0    60   Input ~ 0
+	7000 3450 7100 3550
+Text HLabel 6700 2600 0    60   Input ~ 0
 MODULE
+Text HLabel 7350 4650 0    60   Input ~ 0
+GPIO
+Entry Wire Line
+	7600 5150 7700 5050
+Entry Wire Line
+	7600 5250 7700 5150
+Entry Wire Line
+	9850 5150 9950 5250
+Entry Wire Line
+	9850 5050 9950 5150
+Text Label 3550 3250 0    60   ~ 0
+ID
+Text Label 2100 2900 1    60   ~ 0
+SHELL
+Text GLabel 9500 5250 2    60   Input ~ 0
+GPIO2
+Text GLabel 9500 5400 2    60   Input ~ 0
+GPIO3
+Text GLabel 8200 5400 0    60   Input ~ 0
+GPIO1
+Text GLabel 8200 5250 0    60   Input ~ 0
+GPIO0
 Wire Wire Line
 	8650 5250 8750 5250
 Wire Wire Line
 	9350 5250 9350 5700
 Wire Wire Line
-	8950 3550 8450 3550
+	8950 3550 7100 3550
 Wire Wire Line
-	8950 3450 8450 3450
+	8950 3450 7100 3450
 Wire Wire Line
-	8950 3350 8450 3350
+	8950 3350 7100 3350
 Wire Wire Line
-	8950 3250 8450 3250
+	8950 3250 7100 3250
 Wire Wire Line
-	8950 3150 8450 3150
+	8950 3150 7100 3150
 Wire Wire Line
-	8950 3050 8450 3050
+	8950 3050 7100 3050
 Wire Wire Line
-	8950 2950 8450 2950
+	8950 2950 7100 2950
 Wire Wire Line
-	8950 2850 8450 2850
+	8950 2850 7100 2850
 Wire Wire Line
 	9350 4950 9250 4950
 Wire Wire Line
@@ -499,31 +583,73 @@ Wire Wire Line
 	2150 5700 2150 6100
 Connection ~ 2150 6100
 Wire Bus Line
-	8350 2600 8350 3500
+	7000 2600 7000 3500
 Wire Bus Line
-	8350 2600 8050 2600
-Text HLabel 7350 4650 0    60   Input ~ 0
-GPIO
+	7000 2600 6700 2600
 Wire Bus Line
 	7350 4650 9950 4650
 Wire Bus Line
 	9950 4650 9950 5300
 Wire Bus Line
 	7600 4650 7600 5300
-Entry Wire Line
-	7600 5150 7700 5050
-Entry Wire Line
-	7600 5250 7700 5150
-Entry Wire Line
-	9850 5150 9950 5250
-Entry Wire Line
-	9850 5050 9950 5150
-Text Label 8650 5050 2    60   ~ 0
-GPIO0
-Text Label 8650 5150 2    60   ~ 0
-GPIO1
-Text Label 9350 5050 0    60   ~ 0
-GPIO2
-Text Label 9350 5150 0    60   ~ 0
-GPIO3
+Wire Wire Line
+	8200 5250 8300 5250
+Wire Wire Line
+	8300 5250 8300 5050
+Connection ~ 8300 5050
+Wire Wire Line
+	8200 5400 8350 5400
+Wire Wire Line
+	8350 5400 8350 5150
+Connection ~ 8350 5150
+Wire Wire Line
+	9500 5250 9450 5250
+Wire Wire Line
+	9450 5250 9450 5050
+Connection ~ 9450 5050
+Wire Wire Line
+	9500 5400 9400 5400
+Wire Wire Line
+	9400 5400 9400 5150
+Connection ~ 9400 5150
+Text GLabel 7400 3700 3    60   Input ~ 0
+SCL
+Text GLabel 7550 3700 3    60   Input ~ 0
+SDA
+Text GLabel 7700 3700 3    60   Input ~ 0
+SCLK
+Text GLabel 7850 3700 3    60   Input ~ 0
+MISO
+Text GLabel 8000 3700 3    60   Input ~ 0
+MOSI
+Text GLabel 8150 3700 3    60   Input ~ 0
+G1/TX
+Text GLabel 8300 3700 3    60   Input ~ 0
+G2/RX
+Text GLabel 8450 3700 3    60   Input ~ 0
+G3
+Wire Wire Line
+	7400 3700 7400 2850
+Connection ~ 7400 2850
+Wire Wire Line
+	7550 2950 7550 3700
+Connection ~ 7550 2950
+Wire Wire Line
+	7700 3700 7700 3050
+Connection ~ 7700 3050
+Wire Wire Line
+	7850 3700 7850 3150
+Connection ~ 7850 3150
+Wire Wire Line
+	8000 3700 8000 3250
+Connection ~ 8000 3250
+Wire Wire Line
+	8150 3700 8150 3350
+Connection ~ 8150 3350
+Wire Wire Line
+	8300 3700 8300 3450
+Connection ~ 8300 3450
+Wire Wire Line
+	8450 3700 8450 3550
+Connection ~ 8450 3550
 $EndSCHEMATC

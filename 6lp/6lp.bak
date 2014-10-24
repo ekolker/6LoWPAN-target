@@ -1,5 +1,67 @@
 EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
 LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -57,4 +119,48 @@ Wire Bus Line
 	6350 4650 6850 4650
 Wire Bus Line
 	6350 3800 6850 3800
+$Comp
+L HOLE H1
+U 1 1 544AAEFC
+P 8400 3250
+F 0 "H1" H 8400 3400 60  0000 C CNN
+F 1 "HOLE" H 8400 3100 60  0000 C CNN
+F 2 "parts:M2-HOLE" H 8400 3250 60  0001 C CNN
+F 3 "" H 8400 3250 60  0000 C CNN
+	1    8400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H2
+U 1 1 544AAFCA
+P 8400 3700
+F 0 "H2" H 8400 3850 60  0000 C CNN
+F 1 "HOLE" H 8400 3550 60  0000 C CNN
+F 2 "parts:M2-HOLE" H 8400 3700 60  0001 C CNN
+F 3 "" H 8400 3700 60  0000 C CNN
+	1    8400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H3
+U 1 1 544AAFEE
+P 8400 4150
+F 0 "H3" H 8400 4300 60  0000 C CNN
+F 1 "HOLE" H 8400 4000 60  0000 C CNN
+F 2 "parts:M2-HOLE" H 8400 4150 60  0001 C CNN
+F 3 "" H 8400 4150 60  0000 C CNN
+	1    8400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOLE H4
+U 1 1 544AB013
+P 8400 4600
+F 0 "H4" H 8400 4750 60  0000 C CNN
+F 1 "HOLE" H 8400 4450 60  0000 C CNN
+F 2 "parts:M2-HOLE" H 8400 4600 60  0001 C CNN
+F 3 "" H 8400 4600 60  0000 C CNN
+	1    8400 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

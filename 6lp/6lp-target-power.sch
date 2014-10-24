@@ -1,5 +1,67 @@
 EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
 LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -168,7 +230,7 @@ U 1 1 54501962
 P 5400 4150
 F 0 "L1" V 5350 4150 40  0000 C CNN
 F 1 "VLS3015ET-1R5N" V 5500 4150 40  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 5400 4150 60  0001 C CNN
+F 2 "parts:VLS3015E" H 5400 4150 60  0001 C CNN
 F 3 "" H 5400 4150 60  0000 C CNN
 	1    5400 4150
 	0    1    1    0   

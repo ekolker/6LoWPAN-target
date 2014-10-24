@@ -1,5 +1,67 @@
 EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
 LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -892,4 +954,28 @@ Text Label 3150 3550 2    60   ~ 0
 GPIO2
 Text Label 3150 3650 2    60   ~ 0
 GPIO3
+Text GLabel 5850 3550 2    60   Input ~ 0
+GPIO0
+Text GLabel 5850 3650 2    60   Input ~ 0
+GPIO1
+Text GLabel 2800 3550 0    60   Input ~ 0
+GPIO2
+Text GLabel 2800 3650 0    60   Input ~ 0
+GPIO3
+Text GLabel 5850 3750 2    60   Input ~ 0
+SDA
+Text GLabel 5850 3850 2    60   Input ~ 0
+SCL
+Text GLabel 5850 4250 2    60   Input ~ 0
+G1/TX
+Text GLabel 5850 4350 2    60   Input ~ 0
+G2/RX
+Text GLabel 2800 4050 0    60   Input ~ 0
+MISO
+Text GLabel 2800 3950 0    60   Input ~ 0
+G3
+Text GLabel 2800 3850 0    60   Input ~ 0
+SCLK
+Text GLabel 2800 3750 0    60   Input ~ 0
+MOSI
 $EndSCHEMATC
