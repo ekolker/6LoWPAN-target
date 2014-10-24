@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -55,7 +25,7 @@ $Sheet
 S 6850 3050 1100 1800
 U 545248EF
 F0 "I/O" 60
-F1 "6lp-target-io.sch" 60
+F1 "6LP-target-io.sch" 60
 F2 "USB_D-" I L 6850 3350 60 
 F3 "USB_D+" I L 6850 3250 60 
 F4 "SWCLK" I L 6850 4250 60 

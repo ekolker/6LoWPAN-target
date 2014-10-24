@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 23 Oct 2014 06:20:16 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 23 Oct 2014 07:23:16 PM PDT
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -220,8 +220,8 @@ EndCmp
 BeginCmp
 TimeStamp = /544FA5F3/54501962;
 Reference = L1;
-ValeurCmp = 1.5uH;
-IdModule  = Capacitors_SMD:C_0402;
+ValeurCmp = VLS3015ET-1R5N;
+IdModule  = parts:VLS3015E;
 EndCmp
 
 BeginCmp

@@ -1,35 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -51,7 +21,7 @@ U 1 1 54524BF6
 P 9250 3050
 F 0 "J7" H 8900 3600 60  0000 C CNN
 F 1 "MODULE_HEADER" V 8950 3000 60  0000 C CNN
-F 2 "parts:MODULE_HEADER_MODULE" H 9250 3050 60  0001 C CNN
+F 2 "parts:MODULE_HEADER_TESSEL" H 9250 3050 60  0001 C CNN
 F 3 "" H 9250 3050 60  0000 C CNN
 	1    9250 3050
 	-1   0    0    -1  
@@ -137,7 +107,7 @@ U 1 1 54524C29
 P 9000 5100
 F 0 "J6" H 9000 5350 50  0000 C CNN
 F 1 "CONN_02X04" H 9000 4850 50  0000 C CNN
-F 2 "" H 9000 3900 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 9000 3900 60  0001 C CNN
 F 3 "" H 9000 3900 60  0000 C CNN
 	1    9000 5100
 	1    0    0    -1  
@@ -257,7 +227,7 @@ U 1 1 54533842
 P 4100 3600
 F 0 "R9" V 4180 3600 40  0000 C CNN
 F 1 "10kR" V 4107 3601 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4030 3600 30  0001 C CNN
+F 2 "parts:SMD-0402" V 4030 3600 30  0001 C CNN
 F 3 "" H 4100 3600 30  0000 C CNN
 	1    4100 3600
 	-1   0    0    -1  
@@ -268,7 +238,7 @@ U 1 1 54533849
 P 3750 2800
 F 0 "R8" V 3830 2800 40  0000 C CNN
 F 1 "10kR" V 3757 2801 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3680 2800 30  0001 C CNN
+F 2 "parts:SMD-0402" V 3680 2800 30  0001 C CNN
 F 3 "" H 3750 2800 30  0000 C CNN
 	1    3750 2800
 	0    1    -1   0   
@@ -323,7 +293,7 @@ U 1 1 54533869
 P 2100 3750
 F 0 "R7" V 2180 3750 40  0000 C CNN
 F 1 "10kR" V 2107 3751 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2030 3750 30  0001 C CNN
+F 2 "parts:SMD-0402" V 2030 3750 30  0001 C CNN
 F 3 "" H 2100 3750 30  0000 C CNN
 	1    2100 3750
 	-1   0    0    -1  
