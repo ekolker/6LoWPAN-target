@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Wed 29 Oct 2014 04:39:54 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 30 Oct 2014 12:43:15 PM PDT
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -38,7 +38,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544FA5F3/544FF071;
 Reference = C4;
-ValeurCmp = 22uF;
+ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -138,6 +138,13 @@ TimeStamp = /5452FCCD/54531440;
 Reference = C18;
 ValeurCmp = DNP;
 IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/5452D938;
+Reference = C19;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -248,7 +255,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544FA5F3/54501962;
 Reference = L1;
-ValeurCmp = VLS3015ET-1R5N;
+ValeurCmp = VLS3015ET-2R2N;
 IdModule  = parts:VLS3015E;
 EndCmp
 
