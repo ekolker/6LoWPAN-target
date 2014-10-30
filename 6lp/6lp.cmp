@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 30 Oct 2014 12:43:15 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 30 Oct 2014 02:34:58 PM PDT
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -320,6 +320,13 @@ TimeStamp = /5452FCCD/5453141E;
 Reference = R10;
 ValeurCmp = 10kR;
 IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452B3D6;
+Reference = SILK1;
+ValeurCmp = logo;
+IdModule  = parts:FRACTAL-LOGO-7.3mm;
 EndCmp
 
 BeginCmp
