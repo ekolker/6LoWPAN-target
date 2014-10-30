@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 24 Oct 2014 11:29:43 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Wed 29 Oct 2014 04:39:54 PM PDT
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -309,20 +309,6 @@ IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /545248EF/54533849;
-Reference = R8;
-ValeurCmp = 10kR;
-IdModule  = parts:SMD-0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /545248EF/54533842;
-Reference = R9;
-ValeurCmp = 10kR;
-IdModule  = parts:SMD-0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /5452FCCD/5453141E;
 Reference = R10;
 ValeurCmp = 10kR;
@@ -351,7 +337,7 @@ IdModule  = parts:SC70JW-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /544FA5F3/544FF05C;
+TimeStamp = /544FA5F3/544B3A27;
 Reference = U2;
 ValeurCmp = TPS6303X;
 IdModule  = parts:DFN-10-0.5mm-2.5x2.5-1-EP;

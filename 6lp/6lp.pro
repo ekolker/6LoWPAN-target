@@ -1,4 +1,4 @@
-update=Fri 24 Oct 2014 11:20:46 AM PDT
+update=Wed 29 Oct 2014 07:36:05 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,8 +25,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../kicad-resources
@@ -94,3 +92,5 @@ LibName60=valves
 LibName61=video
 LibName62=xilinx
 LibName63=parts
+[general]
+version=1
