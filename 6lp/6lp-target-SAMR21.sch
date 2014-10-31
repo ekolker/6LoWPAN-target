@@ -1,67 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:linear
-LIBS:logo
-LIBS:memory
-LIBS:microchip
-LIBS:microchip1
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microcontrollers
-LIBS:motorola
-LIBS:msp430
-LIBS:nxp_armmcu
-LIBS:opto
-LIBS:philips
 LIBS:power
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:siliconi
-LIBS:special
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:xilinx
-LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -978,4 +916,52 @@ Text GLabel 2800 3850 0    60   Input ~ 0
 SCLK
 Text GLabel 2800 3750 0    60   Input ~ 0
 MOSI
+Text GLabel 1200 6100 0    60   Input ~ 0
+V_DCDC
+$Comp
+L R R?
+U 1 1 54540406
+P 1350 6450
+F 0 "R?" V 1430 6450 40  0000 C CNN
+F 1 "10kR" V 1357 6451 40  0000 C CNN
+F 2 "parts:SMD-0402" V 1280 6450 30  0001 C CNN
+F 3 "" H 1350 6450 30  0000 C CNN
+	1    1350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54541C36
+P 1350 7150
+F 0 "R?" V 1430 7150 40  0000 C CNN
+F 1 "10kR" V 1357 7151 40  0000 C CNN
+F 2 "parts:SMD-0402" V 1280 7150 30  0001 C CNN
+F 3 "" H 1350 7150 30  0000 C CNN
+	1    1350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 54541CB9
+P 1350 7500
+F 0 "#PWR?" H 1350 7500 40  0001 C CNN
+F 1 "AGND" H 1350 7430 50  0000 C CNN
+F 2 "" H 1350 7500 60  0000 C CNN
+F 3 "" H 1350 7500 60  0000 C CNN
+	1    1350 7500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 7500 1350 7400
+Wire Wire Line
+	1350 6700 1350 6900
+Wire Wire Line
+	1200 6100 1350 6100
+Wire Wire Line
+	1350 6100 1350 6200
+Wire Wire Line
+	1350 6800 2100 6800
+Connection ~ 1350 6800
+Text Label 1550 6800 0    60   ~ 0
+VIN_SENSE
 $EndSCHEMATC
