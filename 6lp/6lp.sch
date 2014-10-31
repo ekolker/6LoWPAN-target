@@ -1,5 +1,66 @@
 EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
 LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
@@ -28,35 +89,14 @@ F0 "I/O" 60
 F1 "6LP-target-io.sch" 60
 F2 "USB_D-" I L 6850 3350 60 
 F3 "USB_D+" I L 6850 3250 60 
-F4 "SWCLK" I L 6850 4250 60 
-F5 "SWDIO" I L 6850 4350 60 
-F6 "MODULE" I L 6850 4650 60 
-F7 "GPIO" I L 6850 3800 60 
-$EndSheet
-$Sheet
-S 5250 3050 1100 1800
-U 5452FCCD
-F0 "SAMR21" 60
-F1 "6lp-target-SAMR21.sch" 60
-F2 "MODULE" I R 6350 4650 60 
-F3 "USB_D-" I R 6350 3350 60 
-F4 "USB_D+" I R 6350 3250 60 
-F5 "SWCLK" I R 6350 4250 60 
-F6 "SWDIO" I R 6350 4350 60 
-F7 "GPIO" I R 6350 3800 60 
+F4 "SWCLK" I L 6850 3800 60 
+F5 "SWDIO" I L 6850 3900 60 
+F6 "MODULE" I L 6850 4350 60 
 $EndSheet
 Wire Wire Line
 	6350 3250 6850 3250
 Wire Wire Line
 	6850 3350 6350 3350
-Wire Wire Line
-	6350 4250 6850 4250
-Wire Wire Line
-	6850 4350 6350 4350
-Wire Bus Line
-	6350 4650 6850 4650
-Wire Bus Line
-	6350 3800 6850 3800
 $Comp
 L HOLE H1
 U 1 1 544AAEFC
@@ -112,4 +152,21 @@ F 3 "" H 9050 3950 60  0000 C CNN
 	1    9050 3950
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 5250 3050 1100 1800
+U 5452FCCD
+F0 "SAMR21" 60
+F1 "6lp-target-SAMR21.sch" 60
+F2 "MODULE" I R 6350 4350 60 
+F3 "USB_D-" I R 6350 3350 60 
+F4 "USB_D+" I R 6350 3250 60 
+F5 "SWCLK" I R 6350 3800 60 
+F6 "SWDIO" I R 6350 3900 60 
+$EndSheet
+Wire Wire Line
+	6350 3800 6850 3800
+Wire Wire Line
+	6850 3900 6350 3900
+Wire Bus Line
+	6350 4350 6850 4350
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Thu 30 Oct 2014 02:34:58 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 31 Oct 2014 01:05:13 PM PDT
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -162,6 +162,20 @@ IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
+TimeStamp = /544FA5F3/54542A7B;
+Reference = D3;
+ValeurCmp = SD101CWS-TP;
+IdModule  = parts:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /545248EF/545511A1;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5452FCCD/545313E7;
 Reference = FB1;
 ValeurCmp = 10uH;
@@ -232,10 +246,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
-TimeStamp = /545248EF/54524C29;
+TimeStamp = /545248EF/5454E2FF;
 Reference = J6;
-ValeurCmp = CONN_02X04;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+ValeurCmp = CONN_01X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -264,6 +278,13 @@ TimeStamp = /5452FCCD/54531439;
 Reference = L2;
 ValeurCmp = 1.8nH;
 IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/5453D285;
+Reference = Q1;
+ValeurCmp = NX2301P,215;
+IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
@@ -316,9 +337,30 @@ IdModule  = parts:SMD-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /545248EF/545511A8;
+Reference = R8;
+ValeurCmp = 1kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54540406;
+Reference = R9;
+ValeurCmp = 5.23kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /5452FCCD/5453141E;
 Reference = R10;
 ValeurCmp = 10kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452FCCD/54541C36;
+Reference = R11;
+ValeurCmp = 10.0kR;
 IdModule  = parts:SMD-0402;
 EndCmp
 
