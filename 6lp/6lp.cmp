@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 31 Oct 2014 02:12:45 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Tue 04 Nov 2014 04:35:27 PM PST
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -157,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /545248EF/54533862;
 Reference = D2;
-ValeurCmp = TVS-2;
+ValeurCmp = SM05-7;
 IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
@@ -381,7 +381,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544FA5F3/544B3A27;
 Reference = U2;
-ValeurCmp = TPS6303X;
+ValeurCmp = TPS63031;
 IdModule  = parts:DFN-10-0.5mm-2.5x2.5-1-EP;
 EndCmp
 
@@ -395,7 +395,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5452FCCD/54532408;
 Reference = X1;
-ValeurCmp = CRYSTAL-4;
+ValeurCmp = 16.0000MF09Z-AC3;
 IdModule  = parts:TSX-3225;
 EndCmp
 
