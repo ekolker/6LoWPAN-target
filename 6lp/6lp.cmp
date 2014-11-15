@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Tue 04 Nov 2014 04:35:27 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 14 Nov 2014 04:53:06 PM PST
 
 BeginCmp
 TimeStamp = /5452FCCD/54531463;
@@ -288,9 +288,16 @@ IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /544FA5F3/54500429;
+TimeStamp = /544FA5F3/5466D63A;
 Reference = R1;
-ValeurCmp = 10kR;
+ValeurCmp = 1kR;
+IdModule  = parts:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FA5F3/5466BE35;
+Reference = R2;
+ValeurCmp = 10k NTC, β=3370;
 IdModule  = parts:SMD-0402;
 EndCmp
 
@@ -372,10 +379,10 @@ IdModule  = parts:EIA-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /544FA5F3/54500414;
+TimeStamp = /544FA5F3/546688F2;
 Reference = U1;
-ValeurCmp = AAT3681AIJS-4.2;
-IdModule  = parts:SC70JW-8;
+ValeurCmp = BQ24040;
+IdModule  = parts:WSON-10-1EP;
 EndCmp
 
 BeginCmp

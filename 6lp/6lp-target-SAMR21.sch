@@ -61,6 +61,8 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:microchip_pic32mcu
+LIBS:parts
 LIBS:6lp-cache
 EELAYER 24 0
 EELAYER END
