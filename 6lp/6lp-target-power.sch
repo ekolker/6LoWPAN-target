@@ -623,4 +623,8 @@ Wire Wire Line
 	3450 3400 3450 3150
 Wire Wire Line
 	3450 2350 3750 2350
+Text Label 5100 2550 0    60   ~ 0
+TS
+Text Label 3500 2350 0    60   ~ 0
+ISET
 $EndSCHEMATC
