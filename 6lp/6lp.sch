@@ -70,8 +70,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Tessel 6LoWPAN target"
-Date "23 Oct 2014"
-Rev ""
+Date "17 Nov 2014"
+Rev "β"
 Comp "Technical Machine"
 Comment1 "Copyright 2014 Technical Machine, Inc."
 Comment2 "CC-BY-SA"
